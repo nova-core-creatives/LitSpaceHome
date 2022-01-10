@@ -9,13 +9,13 @@ sections:
   label: HomePage
   create: all
   match: "**/*"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
 - type: directory
   path: content/blog
   label: Blog
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: content/contact
   label: Contact
@@ -26,7 +26,7 @@ sections:
   label: Portfolio
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: content
   label: Pages
