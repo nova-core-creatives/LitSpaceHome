@@ -9,12 +9,8 @@ tab2Name: Production
 tab1Target: education
 tab2Target: experience
 education:
-- content: |-
-    #### The Basics
-    ✅ Launch Website \n
-    ✅ Launch dApp \n
-    ✅ Develop ERC721 \n
-    ✅ Connect Socials \n
+- content: "#### The Basics\n✅ Launch Website\n\n✅ Launch dApp\n\n✅ Develop ERC721\n\n✅
+    Connect Socials "
   time: Q1 2022
 - content: |
     #### Master in Arts
