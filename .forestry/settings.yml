@@ -5,9 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: static/config.toml
+  path: static/**/*
   label: Params
-  match: "**/*"
 - type: directory
   path: data
   label: HomePage
