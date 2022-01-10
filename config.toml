@@ -54,7 +54,7 @@ copyright = "All right reserved copyright © Portio 2020"
 footerLogo = ""
 formspreeURL = "YOUR FORMSPREE URL"
 googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
-logo = ""
+logo = "/images/litspacenb-copy.png"
 [params.address]
 address = "23 Khan Niketon, Grand Street, NYK."
 email = "hello@example.com"
