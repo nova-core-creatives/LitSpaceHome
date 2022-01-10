@@ -5,10 +5,17 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/blog
-  label: Blog
+  path: content/data
+  label: HomePage
   create: all
   match: "**/*"
+  new_doc_ext: yml
+- type: directory
+  path: content/blog
+  label: Blog
+  create: documents
+  match: "**/*"
+  new_doc_ext: md
 - type: directory
   path: content/contact
   label: Contact
@@ -19,6 +26,7 @@ sections:
   label: Portfolio
   create: all
   match: "**/*"
+  new_doc_ext: md
 - type: directory
   path: content
   label: Pages
