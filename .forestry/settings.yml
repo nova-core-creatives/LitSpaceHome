@@ -7,7 +7,7 @@ sections:
 - type: directory
   path: static
   label: Params
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
   path: data
