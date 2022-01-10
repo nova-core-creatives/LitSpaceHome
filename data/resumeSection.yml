@@ -11,10 +11,10 @@ tab2Target: experience
 education:
 - content: |-
     #### The Basics
-    ✅ Launch Website
-    ✅ Launch dApp
-    ✅ Develop ERC721
-    ✅ Connect Socials
+    ✅ Launch Website <br>
+    ✅ Launch dApp <br>
+    ✅ Develop ERC721 <br>
+    ✅ Connect Socials <br>
   time: Q1 2022
 - content: |
     #### Master in Arts
