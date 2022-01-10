@@ -2,7 +2,7 @@
   publish = "public/"
 
   # Default build command.
-  command = "hugo --minify --gc'"
+  command = "hugo --minify --gc"
 
   [build.processing]
     skip_processing = false
