@@ -21,7 +21,7 @@ url = "#portfolio"
 weight = 4
 [[menu.main]]
 name = "RoadMap"
-url = "#RoadMap"
+url = "#roadmap"
 weight = 5
 [[menu.main]]
 name = "Blog"
