@@ -3,9 +3,6 @@ languageCode = "en-us"
 paginate = 6
 theme = "portio"
 title = "Portio"
-
-
-# Main Menu
 [[menu.main]]
 name = "Home"
 url = "#home"
@@ -23,8 +20,8 @@ name = "Work"
 url = "#portfolio"
 weight = 4
 [[menu.main]]
-name = "Resume"
-url = "#resume"
+name = "RoadMap"
+url = "#roadmap"
 weight = 5
 [[menu.main]]
 name = "Blog"
@@ -34,8 +31,6 @@ weight = 6
 name = "Contact"
 url = "#contact"
 weight = 7
-
-# Sitemap Menu
 [[menu.sitemap]]
 name = "About me"
 url = "about"
@@ -52,29 +47,24 @@ weight = 3
 name = "Latest Article"
 url = "#"
 weight = 4
-
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
 copyright = "All right reserved copyright © Portio 2020"
-footerLogo = "images/contact/widget-logo.png"
+footerLogo = "/images/logofooter.png"
 formspreeURL = "YOUR FORMSPREE URL"
 googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
-logo = "images/site-navigation/logo.png"
-
+logo = "/images/litspaceheader.png"
 [params.address]
 address = "23 Khan Niketon, Grand Street, NYK."
 email = "hello@example.com"
 openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
 phone = "+(448) 833 5272 332"
-
 [params.map]
 APIkey = "YOUR GOOGLE MAP API"
 latitude = "23.7783741"
 longitude = "90.3746808"
 pinImage = "images/pin.png"
-
-# Social icons
 [[params.social]]
 icon = "fa-facebook-official"
 url = "https://www.facebook.com/"
