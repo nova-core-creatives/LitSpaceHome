@@ -1,12 +1,17 @@
 ---
 enable: true
-topTitle: Nova Web Studio
-content: "Web Services for the New Age"
-buttonName: Contact me
+topTitle: Web Studio
+content: "NovaCore is a modern strategies company
+for web services. With a team of experienced
+designers and SEO specialists, we offer website/application design to build
+your own personal brand or business identity.
+We specialize in search engine optimization (SEO) to get you found on Google with
+a site that’s beautifully easy-to-navigate."
+buttonName: Reach Out
 buttonURL: contact
 image: "/uploads/hero.png"
 videoThumb: ''
 videoURL: ''
-title: Nova Web Studio
+title: NovaCore Web Studio
 subtitle: ''
 description: ''
