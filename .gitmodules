@@ -1,3 +1,4 @@
 [submodule "portio-hugo"]
 	path = themes/portio-hugo
 	url = https://github.com/robertstrey/portio-hugo.git
+	branch = custom
