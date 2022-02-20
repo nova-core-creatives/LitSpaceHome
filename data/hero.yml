@@ -1,11 +1,10 @@
 ---
 enable: true
-topTitle: Lets Get Lit At
-content: "# The First Decentralized Virtual Venue\nfor Live Concerts and Conventions
-  in the \nMetaVerse\n"
+topTitle: Nova Web Studio
+content: "Web Services for the New Age"
 buttonName: Contact me
 buttonURL: contact
-image: "/uploads/heroimage.png"
+image: "/uploads/hero.png"
 videoThumb: ''
 videoURL: ''
 title: Nova Web Studio
