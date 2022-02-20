@@ -1,8 +1,8 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 paginate = 6
-theme = "portio"
-title = "Portio"
+theme = "portio-hugo"
+title = "Nova Web Services"
 # Main Menu
 [[menu.main]]
 name = "Home"
