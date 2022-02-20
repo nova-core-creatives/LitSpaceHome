@@ -1,8 +1,8 @@
 baseURL = "https://litspacehome.netlify.app"
 languageCode = "en-us"
 paginate = 6
-theme = "portio"
-title = "Portio"
+theme = "portio-hugo"
+title = "Nova W.S."
 [[menu.main]]
 name = "Home"
 url = "#home"
