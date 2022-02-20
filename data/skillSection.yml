@@ -1,14 +1,14 @@
 ---
-enable: false
-topTitle: My Skills
+enable: true
+topTitle: The Stack
 content: |
-  ## Why hire me for your next project?
-  My goal is to build a strong supportive professional network among all freelancers and startups in order to improve their performance.
+  ## How do your sites work?
+  We package your website so you can easily add or update content, and then automatically deploy the changes.
 image: images/skill/skill_image.jpg
 skill:
-- title: HTML
-  percent: "69"
-- title: CSS
-  percent: "60"
-- title: Javascript
-  percent: "85"
+- title: Bootstrap
+  percent: "50"
+- title: GitHub
+  percent: "30"
+- title: Forestry.io
+  percent: "20"
