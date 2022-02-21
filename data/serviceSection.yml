@@ -1,45 +1,38 @@
 ---
 enable: true
 topTitle: Working Area
-title: >
+title: |
   ## Creative Services
-
-  Enjoy team diversity and increase their networks among others people in
-  various fields by provided.
+  Enjoy team diversity and increase their networks among others people in various fields by provided.
 service:
-  - content: >
-      #### UI/UX Design
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/light.png
-  - content: >
-      #### Web Development
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/award.png
-  - content: >
-      #### Creative Design
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/mobile.png
-  - content: >
-      #### Branding
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/crypto.png
-  - content: >
-      #### UI/UX Design
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/certificate.png
-  - content: >
-      #### Web Development
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/space.png
+- content: |
+    #### UI/UX Design
+    Don't make your visitors guess what to do next. We'll help you design an intuitive site that keeps them engaged.
+  image: images/service/light.png
+  title: ''
+- content: |
+    #### Web Development
+    Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+  image: images/service/award.png
+  title: ''
+- content: |
+    #### Creative Design
+    Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+  image: images/service/mobile.png
+  title: ''
+- content: |
+    #### Branding
+    Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+  image: images/service/crypto.png
+  title: ''
+- content: |
+    #### UI/UX Design
+    Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+  image: images/service/certificate.png
+  title: ''
+- content: |
+    #### Web Development
+    Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+  image: images/service/space.png
+  title: ''
+subtitle: ''
