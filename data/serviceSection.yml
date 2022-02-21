@@ -5,20 +5,20 @@ title: |
   ## Creative Services
   Enjoy team diversity and increase their networks among others people in various fields by provided.
 service:
-- content: |2
-
+- content: |
+    ### UI/UX Design
     Don't make your visitors guess what to do next. We'll help you design an intuitive site that keeps them engaged.
   image: images/service/light.png
   title: UI/UX Design
-- content: "\nWe take care of the hard stuff so you can focus on what's important.
-    Gold start functionality, guaranteed. \n"
+- content: "### Web Development\nWe take care of the hard stuff so you can focus on
+    what's important. Gold start functionality, guaranteed. \n"
   image: images/service/award.png
   title: Web Development
-- content: |
-    #### Creative Design
-    Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+- content: |-
+    ### Mobile Friendly
+    Our team of experienced developers have the expertise to build on-demand responsive web designs that work on every device.
   image: images/service/mobile.png
-  title: ''
+  title: Mobile Friendly
 - content: |
     #### Branding
     Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
