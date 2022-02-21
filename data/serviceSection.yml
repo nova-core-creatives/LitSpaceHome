@@ -24,10 +24,10 @@ service:
   image: images/service/crypto.png
   title: 'Web3 Capabilities '
 - content: |
-    #### UI/UX Design
+    #### Security Certificates
     Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
   image: images/service/certificate.png
-  title: ''
+  title: Security Certificates
 - content: |
     #### Web Development
     Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
