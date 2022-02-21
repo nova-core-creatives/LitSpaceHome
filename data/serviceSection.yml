@@ -11,7 +11,7 @@ service:
   image: images/service/light.png
   title: UI/UX Design
 - content: "### Web Development\nWe take care of the hard stuff so you can focus on
-    what's important. Gold start functionality, guaranteed. \n"
+    what's important. Gold start functionality, guaranteed. \n<br>\n"
   image: images/service/award.png
   title: Web Development
 - content: |-
