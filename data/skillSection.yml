@@ -4,11 +4,11 @@ topTitle: The Stack
 content: |
   ## How do your sites work?
   We package your website so you can easily add or update content, and then automatically deploy the changes.
-image: images/skill/skill_image.jpg
+image: images/skill/stack.png
 skill:
 - title: Bootstrap
   percent: "50"
-- title: GitHub
-  percent: "30"
 - title: Forestry.io
+  percent: "30"
+- title: Github
   percent: "20"
