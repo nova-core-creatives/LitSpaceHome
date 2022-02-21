@@ -8,7 +8,7 @@ service:
 - content: |-
     ### UI/UX Design
     Don't make your visitors guess what to do next. We'll help you design an intuitive site that keeps them engaged.
-    \n
+    <br>
   image: images/service/light.png
   title: UI/UX Design
 - content: "### Web Development\nWe take care of the hard stuff so you can focus on
