@@ -36,11 +36,48 @@
   </script>
   
   <style scoped>
-      @media (min-width: 1000px) {
-          .hero-image {
-            left: -150px;
-          }
+    @include media-breakpoint-up(xs) {
+      .hero-image {
+        width:500px;
+        height: 300px;
+        top: -100px;
+        max-width: 400px;
       }
+     }
+    @include media-breakpoint-up(sm) {
+      .hero-image {
+        width:500px;
+        height: 300px;
+        top: -100px;
+        max-width: 400px;
+
+      }
+     }
+    @include media-breakpoint-up(md) {
+      .hero-image {
+      width:700px;
+      height: 500px;
+      top: -100px;
+
+    }}
+    @include media-breakpoint-up(lg) {
+       .hero-image {
+        width:900px;
+        height: 700px;
+        top: 1000px;
+        float: left;
+      }
+    }
+    @include media-breakpoint-up(xl) {
+      .hero-image {
+        width:900px;
+        height: 700px;
+        top: 1000px;
+        float: left;
+      }
+    }
+
+
 </style>
 </head>
 
@@ -79,11 +116,6 @@
         <li class="nav-item">
           <a href="https://litspacehome.netlify.app#portfolio"
             class="nav-link text-dark text-sm-center p-2 ">Work</a>
-        </li>
-        
-        <li class="nav-item">
-          <a href="https://litspacehome.netlify.app#roadmap"
-            class="nav-link text-dark text-sm-center p-2 ">RoadMap</a>
         </li>
         
         <li class="nav-item">
