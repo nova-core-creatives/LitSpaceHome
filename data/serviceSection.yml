@@ -28,9 +28,8 @@ service:
     Every site is encrypted and tripled secured from data scraping and spam to help rank you higher on Google.
   image: images/service/certificate.png
   title: Security Certificates
-- content: |
-    #### Web Development
-    Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+- content: "#### Full Analytics Suite \nWe will set you're site up with a window into
+    its success at no cost to you."
   image: images/service/space.png
-  title: ''
+  title: 'Full Analytics Suite '
 subtitle: ''
