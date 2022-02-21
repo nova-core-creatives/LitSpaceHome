@@ -19,11 +19,10 @@ service:
     Our team of experienced developers have the expertise to build on-demand responsive web designs that work on every device.
   image: images/service/mobile.png
   title: Mobile Friendly
-- content: |
-    #### Branding
-    Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+- content: "#### Web3 Capabilities \nHire a tech company that’s open to decentralized
+    application development and non-typical projects. \n"
   image: images/service/crypto.png
-  title: ''
+  title: 'Web3 Capabilities '
 - content: |
     #### UI/UX Design
     Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
