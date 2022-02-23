@@ -1,4 +1,4 @@
-baseURL = "https://litspacehome.netlify.app"
+baseURL = "https://novacore.netlify.app"
 languageCode = "en-us"
 paginate = 6
 theme = "portio-hugo"
