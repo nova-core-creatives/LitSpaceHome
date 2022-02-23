@@ -1,16 +1,16 @@
 ---
 enable: true
-topTitle: Working Area
+topTitle: What We Do
 title: |
   ## Creative Services
-  Enjoy team diversity and increase their networks among others people in various fields by provided.
+  Enjoy quick turn around, modern methods, and proven results.
 service:
 - content: |-
     ### 3D Modeling
     Interior/Exterior design, 3D printing, and product models. We do it all.
     <br><br>
   image: images/service/light.png
-  title: UI/UX Design
+  title: 3D modeling
 - content: "### Web Development\nWe take care of the hard stuff so you can focus on
     what's important. Gold start functionality, guaranteed. \n<br>\n"
   image: images/service/award.png
