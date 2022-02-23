@@ -6,8 +6,8 @@ title: |
   Enjoy team diversity and increase their networks among others people in various fields by provided.
 service:
 - content: |-
-    ### UI/UX Design
-    Don't make your visitors guess what to do next. We'll help you design an intuitive site that keeps them engaged.
+    ### 3D Modeling
+    Interior/Exterior design, 3D printing, and product models. We do it all.
     <br><br>
   image: images/service/light.png
   title: UI/UX Design
@@ -16,7 +16,7 @@ service:
   image: images/service/award.png
   title: Web Development
 - content: |-
-    ### Mobile Friendly
+    ### Responsive Designs
     Our team of experienced developers have the expertise to build on-demand responsive web designs that work on every device.
   image: images/service/mobile.png
   title: Mobile Friendly
