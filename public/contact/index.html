@@ -130,11 +130,12 @@
         
       </ul>
       <div class="navbar-nav">
-        <a href="https://litspacehome.netlify.app/contact" class="btn btn-primary btn-zoom hire_button">Hire Me Now</a>
+        <a href="https://litspacehome.netlify.app/contact" class="btn btn-primary btn-zoom hire_button">Hire Us Now</a>
       </div>
     </div>
   </div>
 </nav>
+
   <div id="content">
     
 
@@ -189,12 +190,12 @@
               </svg>
             </div>
             <div class="icon">
-              <img src="https://litspacehome.netlify.app/images/contact/location.svg" alt="location" />
+              <img src="https://litspacehome.netlify.app/images/contact/earth.png" alt="location" />
             </div>
           </div>
           <h4>Office Address</h4>
           <p>
-            23 Khan Niketon, Grand Street, NYK.
+            Based out of the United States
           </p>
         </div>
       </div>
@@ -209,12 +210,12 @@
               </svg>
             </div>
             <div class="icon">
-              <img src="https://litspacehome.netlify.app/images/contact/phone.svg" alt="phone" />
+              <img src="https://litspacehome.netlify.app/images/contact/phone.png" alt="phone" />
             </div>
           </div>
           <h4>Phone & Email</h4>
-          <p>&#43;(448) 833 5272 332<br>
-            <a href="mailto:hello@example.com">hello@example.com</a>
+          <p>&#43;(972)358-5686<br>
+            <a href="mailto:robertstrey@hotmail.com">robertstrey@hotmail.com</a>
           </p>
 
         </div>
@@ -230,7 +231,7 @@
               </svg>
             </div>
             <div class="icon">
-              <img src="https://litspacehome.netlify.app/images/contact/time.svg" alt="time" />
+              <img src="https://litspacehome.netlify.app/images/contact/clock.png" alt="time" />
             </div>
           </div>
           <h4>Working Hours</h4>
@@ -251,7 +252,8 @@
           <h3>Contact Form</h3>
         </div>
         <div class="contact-form-input">
-          <form id="contact"
+          <form
+          id="contact"
           method="POST"
           netlify-honeypot="subject"
           data-netlify-recaptcha="true"
@@ -287,7 +289,15 @@
               </div>
             </div>
 
-            <button type="submit" class="btn btn-primary btn-zoom" id="contact-form-button">Send Message</button>
+            <button
+            class="g-recaptcha"
+            data-sitekey="v3_site_key"
+            data-callback='onSubmit'
+            data-action='submit'
+            type="submit"
+            class="btn btn-primary btn-zoom"
+            id="contact-form-button">Send Message
+          </button>
             <p id="contact-form-status" class="mt-3"></p>
           </form>
 
@@ -299,7 +309,12 @@
       </div>
       <div class="col-lg-6">
       
-      <img src = "images/contact/contact.png">
+      <div class="d-flex justify-content-around">
+      <img class="d-none d-lg-block" src="https://litspacehome.netlify.app/images/contact/contact.png"  style= "width: 700px; height: 500px; object-fit: contain;" />
+      </div>
+      <div stlye= "text-align:center;">
+      <img class="d-lg-none d-xl-none" src="https://litspacehome.netlify.app/images/contact/contact.png"  style= "; width: 500px; height: 500px; object-fit: contain;" />
+      </div>
       </div>
     </div>
   </div>
@@ -370,12 +385,12 @@
 					<h4 class="base-font">Address</h4>
 					
 					<ul class="fa-ul small">
-						<li class="mb-2"><a class="text-light" href="tel:&#43;%28448%29%20833%205272%20332"><span class="fa-li"><i
-										class="fa fa-phone"></i></span>&#43;(448) 833 5272 332</a></li>
-						<li class="mb-2"><a class="text-light" href="mailto:hello@example.com"><span class="fa-li"><i
-										class="fa fa-envelope"></i></span>hello@example.com</a></li>
+						<li class="mb-2"><a class="text-light" href="tel:&#43;%28972%29358-5686"><span class="fa-li"><i
+										class="fa fa-phone"></i></span>&#43;(972)358-5686</a></li>
+						<li class="mb-2"><a class="text-light" href="mailto:robertstrey@hotmail.com"><span class="fa-li"><i
+										class="fa fa-envelope"></i></span>robertstrey@hotmail.com</a></li>
 						<li class="mb-2">
-							<span class="fa-li"><i class="fa fa-map-marker"></i></span>23 Khan Niketon, Grand Street, NYK.</a>
+							<span class="fa-li"><i class="fa fa-map-marker"></i></span>Based out of the United States</a>
 						</li>
 					</ul>
 				</div>
@@ -384,25 +399,13 @@
 		<div class="row footer__footer">
 			<div class="col-lg-6">
 				<div class="footer__footer_copy text-light">
-					<p>All right reserved copyright © Portio 2020</p>
+					<p>All Rights Reserved Copyright © NovaCore LLC 2022</p>
 				</div>
 			</div>
 			<div class="col-lg-6">
 				<div class="footer__footer_social">
 					<ul class="unstyle-list">
 						
-						
-						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://www.facebook.com/"><i
-									class="fa fa-facebook-official"></i></a>
-						</li>
-						
-						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://www.linkedin.com/"><i
-									class="fa fa-linkedin-square"></i></a>
-						</li>
-						
-						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://www.pinterest.com/"><i
-									class="fa fa-pinterest-square"></i></a>
-						</li>
 						
 						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="https://twitter.com/"><i
 									class="fa fa-twitter-square"></i></a>
@@ -429,5 +432,9 @@
 <script src="https://litspacehome.netlify.app/js/script.min.js"></script>
 
 </body>
-
+<script>
+  function onSubmit(token) {
+    document.getElementById("contact-form").submit();
+  }
+</script>
 </html>
