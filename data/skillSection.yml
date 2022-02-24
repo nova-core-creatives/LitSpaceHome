@@ -2,13 +2,15 @@
 enable: true
 topTitle: The Stack
 content: |
-  ## How do your sites work?
-  We package your website so you can easily add or update content, and then automatically deploy the changes.
+  ## What kind of work do you do?
+  Our team executes on a range of services to bring ideas to life
 image: images/skill/stack.png
 skill:
-- title: Bootstrap
-  percent: "50"
-- title: Forestry.io
-  percent: "30"
-- title: Github
+- title: Web Design
+  percent: "40"
+- title: SEO
   percent: "20"
+- title: 3D Rendering
+  percent: "30"
+- title: Marketing Campaigns
+  percent: "10"
