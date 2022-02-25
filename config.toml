@@ -49,7 +49,7 @@ googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 logo = "/images/logo.png"
 [params.address]
 address = "Based out of the United States"
-email = "robertstrey@hotmail.com"
+email = "admin@novacore.info"
 openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
 phone = "+(972)358-5686"
 [params.map]
