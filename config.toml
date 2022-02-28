@@ -45,7 +45,7 @@ contactLink = "contact"
 copyright = "All Rights Reserved Copyright © NovaCore LLC 2022"
 footerLogo = "/images/logo.png"
 formspreeURL = "YOUR FORMSPREE URL"
-googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
+googleAnalytics = "UA-221401560-1"
 logo = "/images/logo.png"
 [params.address]
 address = "Based out of the United States"
