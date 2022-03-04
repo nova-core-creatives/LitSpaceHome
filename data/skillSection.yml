@@ -2,16 +2,16 @@
 enable: true
 topTitle: The Stack
 content: |
-  ## What kind of work do you do?
-  Our team executes on a range of services to bring ideas to life
+  ## What are your sites made of?
+  We use the latest tools for the most modern experience
 image: images/skill/stack.png
 skill:
-- title: Web Design
+- title: Bootstrap
   percent: "40"
-- title: SEO
-  percent: "20"
-- title: 3D Rendering
-  percent: "30"
-- title: Marketing Campaigns
+- title: GitHub
   percent: "10"
+- title: Graphic Design
+  percent: "20"
+- title: Best in Class Hosting
+  percent: "30"
 buttonTarget: skills
