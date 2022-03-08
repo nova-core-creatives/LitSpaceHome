@@ -1,6 +1,6 @@
 ---
 title: "Using UX Design to Increase Conversions"
-date: 03-07-2022T12:49:27+06:00
+date: 2022-03-06T12:49:27+06:00
 featureImage: images/allpost/allPost-7.jpg
 postImage: images/single-blog/feature-image.jpg
 ---
@@ -49,3 +49,8 @@ Conversion rate optimization usually focuses on a single path in a possible cust
 ### What Makes Up Good UX Design
 
 A good user experience design will have a different look and feel for each page depending on the brand and target audience. Nonetheless, there are some best practices that can be applied to almost any situation. They are as follows:
+
+
+### Responsive or Mobile-Friendly Design
+
+You simply cannot claim to have created a good onsite experience if your website does not function properly on any mobile device. Creating the best UX for your mobile users should be a top priority. It's a problem if your content and images don't load properly on a mobile screen, or if users have to struggle to navigate your content.
