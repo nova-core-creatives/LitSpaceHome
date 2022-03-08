@@ -8,11 +8,15 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: file
-  name: featureImage
-  label: featureImage
-- type: file
-  name: postImage
-  label: postImage
+- name: featureImage
+  type: file
+  config:
+    maxSize: 64
+  label: Feature
+- name: postImage
+  type: file
+  config:
+    maxSize: 64
+  label: Top Image
 pages:
-- content/blog/you-must-know-this-before-becoming-a-designer.md
+- content/blog/ux-conversions.md

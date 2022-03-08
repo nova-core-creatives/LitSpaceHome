@@ -1,10 +1,10 @@
 ---
-title: "Using UX Design to Increase Conversions"
-date: 2022-03-06T12:49:27+06:00
-featureImage: images/allpost/allPost-7.jpg
-postImage: images/single-blog/feature-image.jpg
----
+title: Using UX Design to Increase Conversions
+date: 2022-03-06T12:49:27.000+06:00
+featureImage: "/images/ux-design.jpg"
+postImage: "/images/web-developer.jpg"
 
+---
 When someone comes to your website, they may have a variety of intentions. Your goal is to anticipate what that might be in order to provide them with the best possible experience. Then you must deliver it, and fast. Online attention spans are short, if not gone entirely. If visitors aren't ecstatic right away, they'll go somewhere else online.
 
 Once you've lost a client, it's difficult to recover. A poor online experience may drive a prospective consumer away permanently. After all, there's always another link to click. Not only can providing underwhelming online experience harm your company's reputation, but it can also damage your brand's reputation offline as well. This is why it is critical to optimize your website for the best user experience. Some of the ways you can do this are by ensuring that your website is easy to navigate
