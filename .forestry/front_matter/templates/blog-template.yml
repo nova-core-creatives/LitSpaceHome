@@ -18,3 +18,5 @@ fields:
   config:
     maxSize: 64
   label: Top Image
+pages:
+- content/blog/ux-conversions.md
