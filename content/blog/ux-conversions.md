@@ -54,3 +54,41 @@ A good user experience design will have a different look and feel for each page 
 ### Responsive or Mobile-Friendly Design
 
 You simply cannot claim to have created a good onsite experience if your website does not function properly on any mobile device. Creating the best UX for your mobile users should be a top priority. It's a problem if your content and images don't load properly on a mobile screen, or if users have to struggle to navigate your content.
+
+
+
+### Easy-to-Consume Relevant Content
+
+When someone visits your website, they should be able to quickly navigate to the content they require. After that, the content you present should be relevant, useful, and consumable.
+
+What does this imply? Begin with well-written content that includes information that you know your audience requires. Next, add visuals to your content to make it more appealing. Videos, [infographics](https://infogram.com/page/infographic), images, and photographs will be used in high-quality online content that engages readers and keeps them moving through the sales funnel.
+
+Finally, think about readability. Much of this will be taken care of if you're already designing a mobile-friendly experience, but here are a few pointers:
+
+- To break up your text, use white space, numbered lists, and bullet points.
+- Shorten your sentences.
+- Make use of headings and subheadings.
+- Avoid using technical jargon and buzzwords.
+- To back up your assertions, provide a link to relevant resources.
+- Aim for an eighth-grade reading level or use [Readable](https://readable.com/)
+
+### An Optimized Checkout Process
+
+There is no better place to concentrate on conversions than where customers are converting. This is why your checkout process must be designed to provide a positive user experience. Begin by addressing the needs and concerns of the user:
+
+- Use trust badges to show users that your site has been verified as safe and secure. Provide a variety of payment options so that your users can select the one that best suits their needs.
+- Allow guests to check out.
+- Reduce the length of forms and collect only the information required to complete the transaction.
+- If users leave, re-engage them with a special offer.
+
+### Contact Information
+
+Millennials and members of Generation Z want to know about the brands with which they do business. They want to know if you share their values or if your story touches them in some way. Your website should include information about your company's history as well as the values you stand for.
+
+Following that, ensure that your visitors can contact you. Make sure your contact information is easily accessible regardless of where your visitors are on your website.
+
+Finally, enhance the user experience by making it as simple as possible to obtain assistance. Consider adding help text and messages to your site to assist users as they navigate it. In order to provide real-time assistance, include a live chat option.
+
+### Conclusion
+
+Improve your user experience, and your audience will be more likely to complete the conversion steps. They are much more likely to progress through the sales funnel if their experience on your site is helpful, intuitive, and relevant.
