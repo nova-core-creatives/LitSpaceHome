@@ -8,12 +8,12 @@ fields:
 - type: datetime
   name: date
   label: date
-- name: feature
+- name: featureImage
   type: file
   config:
     maxSize: 64
   label: Feature
-- name: top_image
+- name: postImage
   type: file
   config:
     maxSize: 64
