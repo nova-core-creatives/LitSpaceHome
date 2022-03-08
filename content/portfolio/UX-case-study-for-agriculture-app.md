@@ -1,21 +1,23 @@
 ---
-title: UX Case Study for Agriculture App
-date: 2020-08-12T12:13:40+00:00
-thumbnail: images/portfolio/portfolio-4.png
+title: Featured Film
+date: 2022-02-27T13:13:40+00:00
+thumbnail: "/images/web-design.jpg"
 service: UX Design
-client: Jane Doe
-shortDescription: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-  nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-  voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-  gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet lorem ipsum dolor.
-challenge: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-  eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua
-  vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
-solution: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-  eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua
-  vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
+client: Alice Strickland
+shortDescription: Create an effective funnel for film critics and distribution partners
+  to gain an appreciation and desire for the documentary. The site needs to capture
+  their attention, and allow them to watch the full movie right on site.
+challenge: The problem is that to be eligible for awards and accreditation, the movie
+  cannot be public. It must be gated behind a password or streamed on a private service.
+  So we need a beautiful, easy to navigate site, with gated functionality.
+solution: We needed to make sure we met the clients expectations so they would not
+  miss out on critical growth opportunities. We created a user experience that was
+  easy to digest and understand that would entice and capture an audience. Then, when
+  they are ready to watch the film, they could use an automated contact form to receive
+  a password to stream right from their device.
+type: ''
 
 ---
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+The mission was clear. Our client needed a site to feature a full length documentary with zero down time. We implemented a lightning fast content delivery network to deliver the film behind a password protected gate. 
 
-Ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+To highlight the film, we included the full press kit, and interactive cast carousel, and an automated email system for the contact film. It was a pleasure working with the director and we were able to go from launch the site in under a week for $400. A prime example of high quality web design on a budget. 
