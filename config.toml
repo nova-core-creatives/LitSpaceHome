@@ -41,7 +41,7 @@ googleAnalytics = "UA-221401560-1"
 logo = "/images/logo.png"
 [params.address]
 address = "Based out of the United States"
-email = "admin@novacore.info"
+email = "contact@novacore.info"
 openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
 phone = "+(972)358-5686"
 [params.map]
