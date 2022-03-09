@@ -55,10 +55,10 @@ weight = 4
 blogPageURL = "blog"
 contactLink = "contact"
 copyright = "All right reserved copyright © Portio 2020"
-footerLogo = "images/contact/widget-logo.png"
+footerLogo = "images/contact/widget-logo.webp"
 formspreeURL = "YOUR FORMSPREE URL"
 googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
-logo = "images/site-navigation/logo.png"
+logo = "images/site-navigation/logo.webp"
 
 [params.address]
 address = "23 Khan Niketon, Grand Street, NYK."
@@ -70,7 +70,7 @@ phone = "+(448) 833 5272 332"
 APIkey = "YOUR GOOGLE MAP API"
 latitude = "23.7783741"
 longitude = "90.3746808"
-pinImage = "images/pin.png"
+pinImage = "images/pin.webp"
 
 # Social icons
 [[params.social]]

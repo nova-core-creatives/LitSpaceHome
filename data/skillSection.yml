@@ -4,7 +4,7 @@ topTitle: The Stack
 content: |
   ## What are your sites made of?
   We use the latest tools for the most modern experience
-image: images/skill/stack.png
+image: images/skill/stack.webp
 skill:
 - title: Bootstrap
   percent: "40"

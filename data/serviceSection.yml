@@ -9,28 +9,28 @@ service:
     ### Social Media Marketing
     Bring your brand to the forefront of your content. Make an impact, and generate more business.
     <br><br>
-  image: images/service/light.png
+  image: images/service/light.webp
   title: Social Media Marketing
 - content: "### Web Development\nWe take care of the hard stuff so you can focus on
     what's important. Gold start functionality, guaranteed. \n<br>\n"
-  image: images/service/award.png
+  image: images/service/award.webp
   title: Web Development
 - content: |-
     ### Responsive Designs
     Our team of experienced developers have the expertise to build on-demand responsive web designs that work on every device.
-  image: images/service/mobile.png
+  image: images/service/mobile.webp
   title: Mobile Friendly
 - content: "#### Web3 Capabilities \nHire a tech company that’s open to decentralized
     application development and non-typical projects. \n"
-  image: images/service/crypto.png
+  image: images/service/crypto.webp
   title: 'Web3 Capabilities '
 - content: |
     #### Security Certificates
     Every site is encrypted and tripled secured from data scraping and spam to help rank you higher on Google.
-  image: images/service/certificate.png
+  image: images/service/certificate.webp
   title: Security Certificates
 - content: "#### Full Analytics Suite \nWe will set you're site up with a window into
     its success at no cost to you."
-  image: images/service/space.png
+  image: images/service/space.webp
   title: 'Full Analytics Suite '
 subtitle: ''
