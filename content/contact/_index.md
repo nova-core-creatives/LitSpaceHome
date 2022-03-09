@@ -1,5 +1,5 @@
 ---
 title: Contact Us
 breadcrumb: Contact
-image: images/contact/contact.png
+image: images/contact/contact.webp
 ---
