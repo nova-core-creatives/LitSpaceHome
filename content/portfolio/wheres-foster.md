@@ -1,7 +1,7 @@
 ---
 title: Featured Film
 date: 2022-02-27T13:13:40+00:00
-thumbnail: "/images/web-design.jpg"
+thumbnail: "/images/web-design.webp"
 service: UX Design
 client: Alice Strickland
 shortDescription: Create an effective funnel for film critics and distribution partners
