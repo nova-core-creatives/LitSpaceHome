@@ -1,0 +1,114 @@
+{{ define "main" }}
+
+<header class="breadCrumb">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-md-12 offset-lg-1 offset-md-0 text-center">
+        <h3 class="breadCrumb__title">{{ .Title }}</h3>
+        <nav aria-label="breadcrumb" class="d-flex justify-content-center">
+          <ol class="breadcrumb align-items-center">
+            <li class="breadcrumb-item"><a href={{ .Site.BaseURL }}>Home</a></li>
+            <li class="breadcrumb-item"><a href={{ .Site.Params.servicePageURL | absURL }}>Services</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section>
+
+
+
+  <div class="container py-5 text-center">
+      <h1 class="display-4 font-weight-bold">{{.Params.headerTitle}}</h1>
+      <p class="font-italic mb-0">{{.Params.headerSub}}</p>
+
+  </div>
+
+
+</section>
+
+<!-- For Demo Purpose -->
+
+
+<section class="pricing py-5">
+  <div class="container">
+    <div class="row">
+      <!-- Free Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Base</h5>
+            <h6 class="card-price text-center">{{.Params.baseCost}}<span class="period">{{.Params.month}}</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.base1}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.base2}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.base3}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.base4}}</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>{{.Params.baseNot1}}</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>{{.Params.baseNot2}}</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>{{.Params.baseNot3}}
+              </li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>{{.Params.baseNot4}}</li>
+            </ul>
+            <div class="d-grid">
+              <a href="{{"contact"|absURL}}" class="btn btn-primary text-uppercase">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Plus Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
+            <h6 class="card-price text-center">{{.Params.plusCost}}<span class="period">{{.Params.month}}</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>{{.Params.plus1}}</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.plus2}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.plus3}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.plus4}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.plus5}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.plus6}}</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>{{.Params.plusNot1}}</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>{{.Params.plusNot2}}</li>
+            </ul>
+            <div class="d-grid">
+              <a href="{{"contact"|absURL}}" class="btn btn-primary text-uppercase">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Pro Tier -->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Platinum</h5>
+            <h6 class="card-price text-center">{{.Params.platCost}}<span class="period">{{.Params.month}}</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>{{.Params.plat1}}</strong>
+              </li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.plat2}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.plat3}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.plat4}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.plat5}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.plat6}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> {{.Params.plat7}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.plat8}}</li>
+            </ul>
+            <div class="d-grid">
+              <a href="{{"contact"|absURL}}" class="btn btn-primary text-uppercase">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{end}}

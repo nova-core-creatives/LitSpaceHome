@@ -1,0 +1,91 @@
+
+{{ define "main" }}
+<header class="breadCrumb">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-md-12 offset-lg-1 offset-md-0 text-center">
+        <h3 class="breadCrumb__title">{{ .Title }}</h3>
+        <nav aria-label="breadcrumb" class="d-flex justify-content-center">
+          <ol class="breadcrumb align-items-center">
+            <li class="breadcrumb-item"><a href={{ .Site.BaseURL }}>Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <div class="container py-5 text-center">
+        <h1 class="display-4 font-weight-bold">{{.Params.headerTitle}}</h1>
+        <p class="font-italic mb-0">{{.Params.headerSub}}</p>
+
+    </div>
+
+
+<section class="pricing py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Hosting<br><br>Starting at:</h5>
+            <h6 class="card-price text-center">{{.Params.hostCost}}<span class="period">{{.Params.hostMonth}}</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>{{.Params.host1}}</strong>
+              </li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.host2}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.host3}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.host4}}</li>
+            </ul>
+            <div class="d-grid">
+              <a href="{{"services/hosting"|absURL}}" class="btn btn-primary text-uppercase">Hosting</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Platform Developement<br><br>Starting at:</h5>
+            <h6 class="card-price text-center">{{.Params.platCost}}</h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>{{.Params.plat1}}</strong>
+              </li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.plat2}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.plat3}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.plat4}}</li>
+            </ul>
+            <div class="d-grid">
+              <a href="{{"services/platforms"|absURL}}" class="btn btn-primary text-uppercase">Platforms</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Ground-Up Design<br><br>Starting at:</h5>
+            <h6 class="card-price text-center">{{.Params.designCost}}</h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>{{.Params.design1}}</strong>
+              </li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.design2}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.design3}}</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>{{.Params.design4}}</li>
+            </ul>
+            <div class="d-grid">
+              <a href="{{"services/design"|absURL}}" class="btn btn-primary text-uppercase">Custom</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}

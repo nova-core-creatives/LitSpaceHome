@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on Nova W.S.</title>
+    <link>https://novacore.info/services/</link>
+    <description>Recent content in Services on Nova W.S.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://novacore.info/services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design</title>
+      <link>https://novacore.info/services/design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://novacore.info/services/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hosting</title>
+      <link>https://novacore.info/services/hosting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://novacore.info/services/hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Platform Development</title>
+      <link>https://novacore.info/services/platform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://novacore.info/services/platform/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
