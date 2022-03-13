@@ -21,9 +21,9 @@ plusCost: $20
 
 plus1: Everything from Base
 plus2: Up to 200GB Bandwidth
-plus3: Custom Email
+plus3: Custom Email Client
 plus4: Comment/Forum Database
-plus5: 2 Subdomains
+plus5: 3 Subdomains
 plus6: 24/7 Support
 
 plusNot1: Instant Messaging

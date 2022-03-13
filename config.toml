@@ -9,8 +9,8 @@ name = "About"
 url = "#about"
 weight = 1
 [[menu.main]]
-name = "Service"
-url = "#service"
+name = "Services"
+url = "#services"
 weight = 2
 [[menu.main]]
 name = "Porfolio"
