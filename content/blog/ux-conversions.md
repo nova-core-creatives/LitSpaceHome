@@ -1,7 +1,7 @@
 ---
 title: Using UX Design to Increase Conversions
 date: 2022-03-06T12:49:27.000+06:00
-featureImage: "/images/ux-design.webp"
+featureImage: "/images/blog/website-design.webp"
 postImage: "/images/web-developer.webp"
 
 ---
