@@ -42,4 +42,13 @@ plat7: Bandwidth
 plat8: Registerd Users
 
 
+image1: images/service/web-hosting.png
+imageHeader1: Gain Control
+imageSub1: Every plan comes with a custom control panel designed just for you. Gain insight into your sites traffic, SEO, and web mail all in one place. No more guess work, let us set your site up for success!
+
+image2:
+imageHeader2:
+imageSub2:
+
+
 ---

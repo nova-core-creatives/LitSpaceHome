@@ -111,4 +111,22 @@
   </div>
 </section>
 
+
+<section>
+<div class="container section pricing">
+            <div class="row pricing">
+                <div class="col-md-6 pricing">
+                    <h3>
+                        {{.Params.imageHeader1}}
+                    </h3>
+                    <p>
+                        {{.Params.imageSub1}}
+                    </p>
+                </div>
+                <div class="col-md-6 pricing-image">
+                    <img src="{{.Params.image1 | absURL}}" alt=""/>
+                </div>
+            </div>
+        </div>
+</section>
 {{end}}
