@@ -6,27 +6,27 @@ title = "NovaCore | Web Design and Hosting"
 
 [[menu.main]]
 name = "Contact"
-url = "contact"
+url = "/contact"
 weight = 1
 [[menu.main]]
 name = "Services"
-url = "services"
+url = "/services"
 weight = 2
 [[menu.main]]
 name = "Hosting"
-url = "services/hosting"
+url = "/services/hosting"
 weight = 3
 [[menu.main]]
 name = "Partners"
-url = "marketing"
+url = "/marketing"
 weight = 4
 [[menu.main]]
 name = "Blog"
-url = "blog"
+url = "/blog"
 weight = 5
 [[menu.main]]
 name = "Docs"
-url = "docs"
+url = "/docs"
 weight = 6
 
 [[menu.sitemap]]
