@@ -44,7 +44,7 @@
             <div class="col-lg-6 offset-lg-3">
                 <div class="about_header mb-5">
                     <span class="top-title">{{ .Params.topTitle }}</span>
-                    {{ .Params.title | markdownify}}
+                    10% Commission on New Clients
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@
         <div class="contact-form-input">
           <form
           id="contact-form"
-          action="https://submit-form.com/qJNlElPM"
+          onsubmit="getURL()"
           method="POST"
           netlify-honeypot="subject"
           data-netlify-recaptcha="true"
@@ -107,24 +107,93 @@
             <div class="form-row">
 
               <div class="form-group col-md-6 pr-3">
-                <input type="text" class="form-control" name="Name" placeholder="Name" required />
+                <label for="name">Name*</label>
+                <input type="text" class="form-control" name="Name" placeholder="John Smith" required />
                 <p style="display: none;">
                   <label>
                     Subject <input name="subject" type="text" class="form-control"/>
                   </label>
                 </p>
+                <p style="display: none;">
+                  <label>
+                    Referrer <textarea id="form-ref-link"name="link" class="textarea" placeholder="page-link"></textarea>
+                  </label>
+                </p>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" placeholder="Email" required />
+                <label for="email">Email*</label>
+                <input type="email" class="form-control" name="email" placeholder="clara_oswald@aol.com" required />
               </div>
             </div>
 
             <div class="form-group">
-              <textarea class="form-control" id="message" rows="6" name="message" placeholder="Message"></textarea>
-              <div data-netlify-recaptcha="true"></div>
+              <label for="company">Company Name</label>
+              <input type="text" class="form-control" name="company" placeholder="Bad Wolf Corp."/>
+            </div>
+            <div class="form-group">
+              <label for="company-type">Company Type</label>
+              <select id="company-type" type="dropdown" class="form-control" name="company-type">
+                <option value="tech">Tech</option>
+                <option value="marketing">Marketing</option>
+                <option value="Retail">Retail</option>
+                <option value="sm">Social Media</option>
+                <option value="medical">Medical</option>
+                <option value="service">Service</option>
+                <option value="restaurant">Restaurant</option>
+                <option value="other">Other</option>
+              </select>
             </div>
 
+            <div class="form-row">
+              <div class="form-group col-md-6 pr-3">
+                <label for="size">Company Size</label>
+                <select id="size" type="dropdown" class="form-control" name="size">
+                  <option value="1-10">1-10</option>
+                  <option value="11-50">11-50</option>
+                  <option value="51-100">11-50</option>
+                  <option value="100+">100+</option>
+                </select>
+              </div>
+              <div class="form-group col-md-6 pr-3">
+                <label for="potential">Potential Referrals*</label>
+                <select id="potential" type="dropdown" class="form-control" name="potential" required>
+                  <option value="1-10">1-10</option>
+                  <option value="10-20">11-20</option>
+                  <option value="20+">20+</option>
+                </select>
+              </div>
+            </div>
             <div class="form-group">
+              <label for="source">Referrals Source*</label>
+              <select id="source" type="dropdown" class="form-control" name="source" required>
+                <option value="w-o-m">Word of Mouth</option>
+                <option value="sm">Social Media</option>
+                <option value="ads">Advertising</option>
+                <option value="direct">Direct</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-6 pr-3">
+                <label for="payment">Preffered Payment*</label>
+                <select id="payment" type="dropdown" class="form-control" name="payment" required>
+                  <option value="stripe">Stripe</option>
+                  <option value="paypal">Paypal</option>
+                  <option value="Venmo">Venmo</option>
+                  <option value="applepay">Apple Pay</option>
+                  <option value="cashapp">CashApp</option>
+                </select>
+              </div>
+              <div class="form-group col-md-6 pr-3">
+                <label for="handle">Payment Handle*</label>
+                <input type="text" class="form-control" name="handle" placeholder="@swiss_sonic"  required>
+              </div>
+            </div>
+
+            <div data-netlify-recaptcha="true"></div>
+            <div class="form-group">
+              <div data-netlify-recaptcha="true"></div>
               <div class="form-check small">
                 <input type="checkbox" class="form-check-input" name="agreement" id="aggrement" required />
                 <label class="form-check-label" for="aggrement">
@@ -141,7 +210,9 @@
             class="btn btn-primary btn-zoom"
             id="contact-form-button">Send Message
           </button>
-            <p id="contact-form-status" class="mt-3"></p>
+            <p id="contact-form-status" class="mt-3">
+              <img src="https://partners.novacore.info/js/pixel.png">
+            </p>
           </form>
 
 
@@ -149,13 +220,13 @@
 
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6" stlye="vertical-align: middle;">
 
-      <div class="d-flex justify-content-around">
-      <img loading="lazy" loading="lazy" class="d-none d-lg-block" src="{{ "images/contact/contact.webp" | absURL }}"  style= "width: 700px; height: 500px; object-fit: contain;" />
+      <div class="d-flex justify-content-around" style="margin-left:50px;">
+      <img loading="lazy" loading="lazy" class="d-none d-lg-block" src="{{ "images/marketing/web-design-partners.webp" | absURL }}"  style= "width: 700px; height: 500px; object-fit: contain;" />
       </div>
       <div stlye= "text-align:center;">
-      <img loading="lazy" loading="lazy" class="d-lg-none d-xl-none" src="{{ "images/contact/contact.webp" | absURL }}"  style= "; width: 500px; height: 500px; object-fit: contain;" />
+      <img loading="lazy" loading="lazy" class="d-lg-none d-xl-none" src="{{ "images/marketing/web-design-partners.webp" | absURL }}"  style= "; width: 500px; height: 500px; object-fit: contain;" />
       </div>
       </div>
     </div>
@@ -209,7 +280,7 @@ Drop us a Line, We'd Love to Hear From You!
           </div>
           <h4>Phone & Email</h4>
           <p>{{ $address.phone }}<br>
-            <a href="mailto:{{ $address.email }}">{{ $address.email }}</a>
+            <a href="mailto:marketing@novacore.info?subject=Affiliate%20Program">marketing@novacore.info</a>
           </p>
 
         </div>
