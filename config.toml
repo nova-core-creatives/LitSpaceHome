@@ -13,7 +13,7 @@ name = "Services"
 url = "#services"
 weight = 2
 [[menu.main]]
-name = "Porfolio"
+name = "Portfolio"
 url = "#portfolio"
 weight = 3
 [[menu.main]]
@@ -30,20 +30,20 @@ url = "#contact"
 weight = 6
 
 [[menu.sitemap]]
-name = "Contact"
-url = "contact"
+name = "Marketing"
+url = "marketing"
 weight = 1
-[[menu.sitemap]]
-name = "Blog"
-url = "blog"
-weight = 2
 [[menu.sitemap]]
 name = "Services"
 url = "services"
+weight = 2
+[[menu.sitemap]]
+name = "Blog"
+url = "blog"
 weight = 3
 [[menu.sitemap]]
-name = "Marketing"
-url = "marketing"
+name = "Contact"
+url = "contact"
 weight = 4
 [[menu.sitemap]]
 name = "Docs"
