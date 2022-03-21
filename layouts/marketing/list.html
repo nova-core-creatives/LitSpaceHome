@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+
+
 <header class="breadCrumb">
   <div class="svg-img">
     <img loading="lazy" loading="lazy" src="{{ "images/hero/figure-svg.svg" | absURL }}" alt="bg">
@@ -36,81 +38,61 @@
   </div>
 </header>
 
-{{ $address := .Site.Params.address }}
-<section class="section contact__info">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="contact__info_item">
-          <div class="contact__info_item-icon">
-            <div class="icon-background">
-              <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702" viewBox="0 0 122.457 109.702">
-                <path fill="#f1f6f9"
-                  d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
-                  data-name="Path 1354" />
-              </svg>
+<section class="section about" id="about">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="about_header mb-5">
+                    <span class="top-title">{{ .Params.topTitle }}</span>
+                    {{ .Params.title | markdownify}}
+                </div>
             </div>
-            <div class="icon">
-              <img loading="lazy" loading="lazy" src="{{ "images/contact/earth.webp" | absURL }}" alt="location" />
-            </div>
-          </div>
-          <h4>Office Address</h4>
-          <p>
-            {{ $address.address }}
-          </p>
         </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="contact__info_item">
-          <div class="contact__info_item-icon">
-            <div class="icon-background">
-              <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702" viewBox="0 0 122.457 109.702">
-                <path fill="#f1f6f9"
-                  d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
-                  data-name="Path 1354" />
-              </svg>
-            </div>
-            <div class="icon">
-              <img loading="lazy" loading="lazy" src="{{ "images/contact/phone.webp" | absURL }}" alt="phone" />
-            </div>
-          </div>
-          <h4>Phone & Email</h4>
-          <p>{{ $address.phone }}<br>
-            <a href="mailto:{{ $address.email }}">{{ $address.email }}</a>
-          </p>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="about_content">
+                    <div class="about_content-thumb">
 
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="contact__info_item">
-          <div class="contact__info_item-icon">
-            <div class="icon-background">
-              <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702" viewBox="0 0 122.457 109.702">
-                <path fill="#f1f6f9"
-                  d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
-                  data-name="Path 1354" />
-              </svg>
+                        <div class="about_content-thumb-image">
+                            <img src="{{ .Params.image | absURL }}" alt="about-img"
+                                style='-webkit-mask: url({{"images/about/about-mask-svg.svg" | absURL}}); -webkit-mask-size: contain;'>
+                        </div>
+                    </div>
+                    <div class="about_content-inner">
+                        <div class="about_content-inner-blob">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                viewBox="0 0 600 600">
+                                <defs>
+                                    <linearGradient id="c" x1="0.929" y1="0.111" x2="0.263" y2="0.935"
+                                        gradientUnits="objectBoundingBox">
+                                        <stop offset="0" stop-color="#f1f6f9" />
+                                        <stop offset="1" stop-color="#f1f6f9" stop-opacity="0" />
+                                    </linearGradient>
+                                </defs>
+                                <g data-name="blob-shape (3)">
+                                    <path class="blob" fill="url(#c)"
+                                        d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="mb-4 text-light">
+                            {{ .Params.content | markdownify}}
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="icon">
-              <img loading="lazy" loading="lazy" src="{{ "images/contact/clock.webp" | absURL }}" alt="time" />
-            </div>
-          </div>
-          <h4>Working Hours</h4>
-          <p>
-            {{ $address.openingHours }}
-          </p>
         </div>
-      </div>
     </div>
-  </div>
 </section>
+
+
 
 <section class="contact-form">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
         <div class="contact-form-title">
-          <h3>Contact Form</h3>
+          <h3>Application</h3>
         </div>
         <div class="contact-form-input">
           <form
@@ -175,6 +157,82 @@
       <div stlye= "text-align:center;">
       <img loading="lazy" loading="lazy" class="d-lg-none d-xl-none" src="{{ "images/contact/contact.webp" | absURL }}"  style= "; width: 500px; height: 500px; object-fit: contain;" />
       </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container"style="text-align:center;">
+<h2>
+  Want to Learn More?
+</h2>
+<h4>
+Drop us a Line, We'd Love to Hear From You!
+</h4>
+</div>
+{{ $address := .Site.Params.address }}
+<section class="section contact__info">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="contact__info_item">
+          <div class="contact__info_item-icon">
+            <div class="icon-background">
+              <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702" viewBox="0 0 122.457 109.702">
+                <path fill="#f1f6f9"
+                  d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
+                  data-name="Path 1354" />
+              </svg>
+            </div>
+            <div class="icon">
+              <img loading="lazy" loading="lazy" src="{{ "images/contact/earth.webp" | absURL }}" alt="location" />
+            </div>
+          </div>
+          <h4>Office Address</h4>
+          <p>
+            {{ $address.address }}
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="contact__info_item">
+          <div class="contact__info_item-icon">
+            <div class="icon-background">
+              <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702" viewBox="0 0 122.457 109.702">
+                <path fill="#f1f6f9"
+                  d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
+                  data-name="Path 1354" />
+              </svg>
+            </div>
+            <div class="icon">
+              <img loading="lazy" loading="lazy" src="{{ "images/contact/phone.webp" | absURL }}" alt="phone" />
+            </div>
+          </div>
+          <h4>Phone & Email</h4>
+          <p>{{ $address.phone }}<br>
+            <a href="mailto:{{ $address.email }}">{{ $address.email }}</a>
+          </p>
+
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="contact__info_item">
+          <div class="contact__info_item-icon">
+            <div class="icon-background">
+              <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702" viewBox="0 0 122.457 109.702">
+                <path fill="#f1f6f9"
+                  d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
+                  data-name="Path 1354" />
+              </svg>
+            </div>
+            <div class="icon">
+              <img loading="lazy" loading="lazy" src="{{ "images/contact/clock.webp" | absURL }}" alt="time" />
+            </div>
+          </div>
+          <h4>Working Hours</h4>
+          <p>
+            {{ $address.openingHours }}
+          </p>
+        </div>
       </div>
     </div>
   </div>
