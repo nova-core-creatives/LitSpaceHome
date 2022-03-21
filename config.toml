@@ -2,7 +2,7 @@ baseURL = "https://novacore.info"
 languageCode = "en-us"
 paginate = 6
 theme = "portio-hugo"
-title = "Nova W.S."
+title = "NovaCore | Web Design and Hosting"
 
 [[menu.main]]
 name = "Contact"
