@@ -1,8 +1,8 @@
 ---
 title: Navigation and CRO
 date: 2022-03-15T12:49:27.000+06:00
-featureImage: "/images/blog/web-designers.webp"
-postImage: "/images/blog/conversion-rate-optimization.webp"
+featureImage: "/images/blog/cro-website-design.webp"
+postImage: "/images/blog/cro-website-design.webp"
 
 ---
 ### Intro

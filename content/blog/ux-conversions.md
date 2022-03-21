@@ -1,8 +1,8 @@
 ---
 title: Using UX Design to Increase Conversions
 date: 2022-03-06T12:49:27.000+06:00
-featureImage: "/images/blog/website-design.webp"
-postImage: "/images/web-developer.webp"
+featureImage: "/images/blog/web-design-company.webp"
+postImage: "/images/blog/web-design-company.webp"
 
 ---
 When someone comes to your website, they may have a variety of intentions. Your goal is to anticipate what that might be in order to provide them with the best possible experience. Then you must deliver it, and fast. Online attention spans are short, if not gone entirely. If visitors aren't ecstatic right away, they'll go somewhere else online.
