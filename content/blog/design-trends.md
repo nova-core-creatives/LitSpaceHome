@@ -15,7 +15,9 @@ Keep in mind that these are just predictions – the actual trends may vary. But
 
 First up is a trend that we’re already seeing take hold: minimalist and monochromatic designs. This is likely to continue in 2022, as people become more and more drawn to simple, clutter-free visuals. Expect to see more black-and-white designs, as well as an increase in muted pastels and other soft colours.
 
-Another trend that’s gaining popularity is asymmetrical layouts. These layouts are a great way to add visual interest to your site, and they’re perfect for projects that require a bit of creativity
+Another trend that’s gaining popularity is asymmetrical layouts. These layouts are a great way to add visual interest to your site, and they’re perfect for projects that require a bit of creativity.
+
+We'll also discuss some of the elements you can see on our website, 3D graphics and animations. A powerful trend seen even at large chains like Kroger! To wrap it up, we'll tie this all together with creating unique user experiences. The over arching trend we've seen in the last decade has been just that, creating more engaging experiences for your audience.
 
 ### Minimalist and Monochromatic Designs
 
