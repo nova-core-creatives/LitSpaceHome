@@ -7,7 +7,7 @@ headerSub: Offering our clients the best, for a smoother migration and higher si
 baseCost: $10
 month: /month
 
-base1: Static Site
+base1: WordPress or Static Site
 base2: Contact Form/Notifications
 base3: Control Panel
 base4: 50GB Bandwidth
