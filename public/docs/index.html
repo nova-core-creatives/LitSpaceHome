@@ -66,7 +66,11 @@
                                         <a href="#webmail" class="nav-link">  <img width="50px" src="https://img.icons8.com/stickers/100/000000/email-sign.png"/>Webmail</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#domains" class="nav-link"><img width ="50px" src="https://img.icons8.com/stickers/100/000000/individual-server.png"/>DNS Records</a>
+                                      <a href="#domains" class="nav-link"><img width="50px"src="https://img.icons8.com/stickers/100/000000/individual-server.png"/>DNS Records</a>
+                                      <ul class="list-unstyled dropdown_nav">
+                                          <li class="nav-item"><a href="#go-daddy" class="nav-link">GoDaddy</a></li>
+                                        </ul>
+
                                     </li>
                                     <li class="nav-item">
                                         <a href="#squarespace" class="nav-link"><img width ="50px" src="https://img.icons8.com/stickers/100/000000/four-squares.png"/>SquareSpace</a>
@@ -701,6 +705,148 @@
                               It also provides you the flexibility to add records from your control panel and will make your site load faster!
                               <br>
                               </p>
+                              <div class="border_bottom" style="margin-bottom:30px;margin-top:100px;"></div>
+                            <h4 id="go-daddy">GoDaddy</h4>
+                            <p>
+                            GoDaddy is by far the most popular domain registrar and the first on our list. Hooking up your domain to your server is fairly simple and consists of a few steps:
+                            <br>
+                            <ol class="ordered-list">
+                              <li>Navigate to your Domain</li>
+                              <li>Find "Manage DNS"</li>
+                              <li>Add Host Names(Glue Records)</li>
+                              <li>Add NameServers</li>
+                            </ol>
+                            <br>
+                            Below you will find the step by step guide to adding these records.
+                            </p>
+                            <div class="process_tab_shortcode">
+                                <ul class="nav nav-tabs v_menu" id="myTab" role="tablist">
+
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="go-daddy-home-tab" data-toggle="tab" href="#go-daddy-home" role="tab" aria-controls="go-daddy-home-tab" aria-selected="true"><span>1</span>Navigate</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="go-daddy-nav-tab" data-toggle="tab" href="#go-daddy-nav" role="tab" aria-controls="go-daddy-nav-tab" aria-selected="false"><span>2</span>Manage DNS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="go-daddy-dns-tab" data-toggle="tab" href="#go-daddy-dns" role="tab" aria-controls="go-daddy-dns-tab" aria-selected="false"><span>3</span>Host Names</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="go-daddy-glue-tab" data-toggle="tab" href="#go-daddy-glue" role="tab" aria-controls="go-daddy-glue-tab" aria-selected="false"><span>4</span>Glue Records</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="go-daddy-names-tab" data-toggle="tab" href="#go-daddy-names" role="tab" aria-controls="go-daddy-names-tab" aria-selected="false"><span>5</span>Nameservers</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="go-daddy-names-add-tab" data-toggle="tab" href="#go-daddy-names-add" role="tab" aria-controls="go-daddy-names-add-tab" aria-selected="false"><span>6</span>Advanced</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="go-daddy-names-advanced-tab" data-toggle="tab" href="#go-daddy-names-advanced" role="tab" aria-controls="go-daddy-names-advanced-tab" aria-selected="false"><span>7</span>Add</a>
+                                    </li>
+
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="go-daddy-home" role="tabpanel" aria-labelledby="go-daddy-home-tab">
+
+                                        <p>
+                                          From the home page, click on your account name and navigate to your products.
+                                        </p>
+                                        <div class="version">
+                                            <div class="v_head">
+                                                <img class="img-fluid" src="https://novacore.info/docs/img/go-daddy/go-daddy-home.webp" />
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="tab-pane fade" id="go-daddy-nav" role="tabpanel" aria-labelledby="go-daddy-nav-tab">
+                                        <p>
+                                          On the domain you would like to add, click on the three dots in the upper right hand corner of that domain. Navigate to the "Manage DNS" section
+                                        </p>
+                                        <div class="version">
+                                            <div class="v_head">
+                                                <img class="img-fluid" src="https://novacore.info/docs/img/go-daddy/go-daddy-manage-dns.webp" />
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="go-daddy-dns" role="tabpanel" aria-labelledby="go-daddy-dns-tab">
+
+                                        <p>
+                                          At the bottom of that page, find the advanced section and click on "Host Names". <br>
+                                          If you do not see this or have a different screen, try finding the 3 dots at the top right corner of the first set of DNS records. The host names can be found in that submenu.
+
+                                        </p>
+                                        <div class="version">
+                                            <div class="v_head">
+                                                <img class="img-fluid" src="https://novacore.info/docs/img/go-daddy/go-daddy-hostnames.webp" />
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="tab-pane fade" id="go-daddy-glue" role="tabpanel" aria-labelledby="go-daddy-glue-tab">
+                                        <p>
+                                          If this is a new domain or you haven't switched from GoDaddy before, this menu should be empty and there will be a blue/black add button.<br><br>
+                                          You will add a record:<br>
+                                          <ol class="ordered-list">
+                                              <li>Host: ns1</li>
+                                              <li>IP: <strong>34.133.69.67</strong></li>
+                                          </ol>
+                                          <br>
+                                          Click save and add one more record.
+                                          <br>
+                                          This record is identical except instead of a 1, its a 2.
+                                          <ol class="ordered-list">
+                                              <li>Host: ns2</li>
+                                              <li>IP: <strong>34.133.69.67</strong></li>
+                                          </ol>
+
+                                        </p>
+                                        <div class="version">
+                                            <div class="v_head">
+                                                <img class="img-fluid" src="https://novacore.info/docs/img/go-daddy/go-daddy-add.jpeg" />
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="go-daddy-names" role="tabpanel" aria-labelledby="go-daddy-names-tab">
+                                        <p>
+                                        Head back to the previous page, and find the "Nameservers" section and click change.
+                                        </p>
+                                        <div class="version">
+                                            <div class="v_head">
+                                                <img class="img-fluid" src="https://novacore.info/docs/img/go-daddy/go-daddy-nameservers.webp" />
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="go-daddy-names-add" role="tabpanel" aria-labelledby="go-daddy-names-add-tab">
+                                        <p>
+                                          You will need to enter your own nameservers as marked below. It might tell you that this is an advanced move, but this can always be undone and returned to default settings.
+                                        </p>
+                                        <div class="version">
+                                            <div class="v_head">
+                                                <img class="img-fluid" src="https://novacore.info/docs/img/go-daddy/go-daddy-advanced.webp" />
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="go-daddy-names-advanced" role="tabpanel" aria-labelledby="go-daddy-names-advanced-tab">
+                                        <p>
+                                          This step is brings it all together. Just add the ns1.yourdomain.com and ns2.yourdomain.com to the inputs and click save.
+                                        </p>
+                                        <div class="version">
+                                            <div class="v_head">
+                                                <img class="img-fluid" src="https://novacore.info/docs/img/go-daddy/go-daddy-add-nameservers.webp" />
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+
 
 
 
